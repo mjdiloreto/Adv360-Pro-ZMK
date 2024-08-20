@@ -1,14 +1,8 @@
-macro_spc_o_f: macro_spc_o_f{
-compatible = "zmk,behavior-macro";
-label = "macro_spc_o_f";
-#binding-cells = <0>;
-bindings = <&kp SPACE>, <&kp O>, <&kp CAPS>, <&kp F>, <&kp CAPS>;
-};
 macro_macro_spc_f_o: macro_macro_spc_f_o{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_spc_f_o";
 #binding-cells = <0>;
-bindings = <&kp SPACE>, <&kp CAPS>, <&kp F>, <&kp CAPS>, <&kp O>;
+bindings = <&kp SPACE>, <&kp F>, <&kp O>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
@@ -39,12 +33,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-};
-macro_kinesis: macro_kinesis{
-compatible = "zmk,behavior-macro";
-label = "macro_kinesis";
-#binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
